@@ -32,10 +32,10 @@ Checkout more about fast-data-dev docker container [here](https://github.com/Lan
 To run it via the provided docker image:
 
 ```
-docker pull landoop/schema-registry-ui
-docker run --rm -p 8000:8000 \
+docker pull acornsgrow/schema-registry-ui
+docker run --rm -p 8022:8022 \
            -e "SCHEMAREGISTRY_URL=http://confluent-schema-registry-host:port" \
-           landoop/schema-registry-ui
+           acornsgrow/schema-registry-ui
 ```
 
 Please see the [docker readme](https://github.com/Landoop/schema-registry-ui/tree/master/docker) for more information
